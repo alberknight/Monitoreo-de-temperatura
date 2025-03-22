@@ -1,0 +1,29 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@android:color/white"
+    android:elevation="4dp"
+    android:layout_marginBottom="8dp">
+
+    <!-- Nombre del sensor -->
+    <TextView
+        android:id="@+id/tvSensorName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sensor 1"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@android:color/black" />
+
+    <!-- Temperatura del sensor -->
+    <TextView
+        android:id="@+id/tvTemperature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="22.56 °C"
+        android:textSize="14sp"
+        android:textColor="@android:color/black" />
+</LinearLayout>

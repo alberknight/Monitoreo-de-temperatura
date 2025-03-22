@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Estado del servidor -->
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Estado del servidor: Detenido"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:padding="8dp" />
+
+    <!-- Botón para iniciar el servidor -->
+    <Button
+        android:id="@+id/btnStartServer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Iniciar Servidor" />
+
+    <!-- Botón para detener el servidor -->
+    <Button
+        android:id="@+id/btnStopServer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detener Servidor"
+        android:visibility="gone" />
+
+    <!-- Título para datos recibidos -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Datos recibidos:"
+        android:textSize="18sp"
+        android:paddingTop="16dp" />
+
+    <!-- RecyclerView para mostrar los datos de sensores -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvMessages"
+        android:layout_width="match_parent"
+        android:layout_height="365dp"
+        android:layout_weight="1"
+        android:clipToPadding="false" />
+
+    <Button
+        android:id="@+id/btn_generate_report"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generar Reporte"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btn_view_history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ver Historial"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal" />
+
+    <!-- Gráfico de temperatura promedio -->
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/lineChart"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/white" />
+</LinearLayout>
