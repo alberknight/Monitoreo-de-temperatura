@@ -61,7 +61,7 @@ SERVER_PORT = 8080
 
 ## Diagrama del circuito (ESP32)
 
-![Diagrama](assets/diagrama_sensor_temperatura.png")
+![Diagrama](assets/diagrama_sensor_temperatura.png)
 
 ## Estructura del Código
 
