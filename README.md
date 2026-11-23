@@ -57,7 +57,7 @@ SERVER_PORT = 8080
 > **Video de demostración:**
 > He grabado un video detallado explicando el funcionamiento de la interfaz, la conexión entre el sensor y la app, y las pruebas de activación de la alarma de temperatura.
 > 
-> [Ver video de demostración aquí](https://tgutierrez-my.sharepoint.com/personal/l21270656_tuxtla_tecnm_mx/_layouts/15/stream.aspx?id=%2Fpersonal%2Fl21270656%5Ftuxtla%5Ftecnm%5Fmx%2FDocuments%2FIm%C3%A1genes%2FSistema%20de%20monitoreo%20de%20temperatura%20mediante%20aplicaci%C3%B3n%20m%C3%B3vil%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ecb30cd1f%2D3427%2D4eac%2D88f3%2D803732aef87d)
+> [Ver video de demostración aquí]([https://tgutierrez-my.sharepoint.com/personal/l21270656_tuxtla_tecnm_mx/_layouts/15/stream.aspx?id=%2Fpersonal%2Fl21270656%5Ftuxtla%5Ftecnm%5Fmx%2FDocuments%2FIm%C3%A1genes%2FSistema%20de%20monitoreo%20de%20temperatura%20mediante%20aplicaci%C3%B3n%20m%C3%B3vil%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ecb30cd1f%2D3427%2D4eac%2D88f3%2D803732aef87d](https://1drv.ms/v/c/f4fe566ab336c99f/IQBPs4KF8HCnRodQeeD0DmEaAc_CBYpIy1dwfYtk91t_BVI?e=GVHkHv))
 
 ## Diagrama del circuito (ESP32)
 
